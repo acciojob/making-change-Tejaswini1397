@@ -7,7 +7,8 @@ const makeChange = (c) => {
 		output[i]=ParseInt(num/curr);
 		num=num-curr*output[i]
 	}
-	console.log(output);
+	return output;
+	
 };
 
 // Do not the change the code below
